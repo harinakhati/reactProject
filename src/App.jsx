@@ -9,7 +9,7 @@ import Edit from './pages/edit/Edit'
 function App() {
 
   return (
-    <>
+    
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>}/>
@@ -19,7 +19,7 @@ function App() {
       
     </Routes>
     </BrowserRouter>
-    </>
+ 
   )
 }
 
